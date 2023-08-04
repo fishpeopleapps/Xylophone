@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8109C9752A7C4BA10096DD64 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C9742A7C4BA10096DD64 /* SplashView.swift */; };
+		8109C9772A7C67040096DD64 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C9762A7C67040096DD64 /* KeyView.swift */; };
+		8109C9792A7C67850096DD64 /* ColorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109C9782A7C67850096DD64 /* ColorLibrary.swift */; };
+		8109C97B2A7C6C970096DD64 /* Handlee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8109C97A2A7C6C970096DD64 /* Handlee-Regular.ttf */; };
 		81924D972A26390100BDA309 /* XylophoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81924D962A26390100BDA309 /* XylophoneApp.swift */; };
 		81924D992A26390100BDA309 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81924D982A26390100BDA309 /* ContentView.swift */; };
 		81924D9B2A26390300BDA309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81924D9A2A26390300BDA309 /* Assets.xcassets */; };
@@ -22,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8109C9742A7C4BA10096DD64 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8109C9762A7C67040096DD64 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		8109C9782A7C67850096DD64 /* ColorLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLibrary.swift; sourceTree = "<group>"; };
+		8109C97A2A7C6C970096DD64 /* Handlee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Handlee-Regular.ttf"; sourceTree = "<group>"; };
+		8109C97C2A7C6CB20096DD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		81924D932A26390100BDA309 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81924D962A26390100BDA309 /* XylophoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneApp.swift; sourceTree = "<group>"; };
 		81924D982A26390100BDA309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,9 +76,14 @@
 		81924D952A26390100BDA309 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				8109C97C2A7C6CB20096DD64 /* Info.plist */,
 				81924D962A26390100BDA309 /* XylophoneApp.swift */,
 				81924DB32A26454500BDA309 /* AudioManager.swift */,
 				81924D982A26390100BDA309 /* ContentView.swift */,
+				8109C9782A7C67850096DD64 /* ColorLibrary.swift */,
+				8109C97A2A7C6C970096DD64 /* Handlee-Regular.ttf */,
+				8109C9762A7C67040096DD64 /* KeyView.swift */,
+				8109C9742A7C4BA10096DD64 /* SplashView.swift */,
 				81924D9A2A26390300BDA309 /* Assets.xcassets */,
 				81924DA42A26397300BDA309 /* Sounds */,
 				81924D9C2A26390300BDA309 /* Preview Content */,
@@ -163,6 +177,7 @@
 				81924D9E2A26390300BDA309 /* Preview Assets.xcassets in Resources */,
 				81924D9B2A26390300BDA309 /* Assets.xcassets in Resources */,
 				81924DAF2A26397400BDA309 /* D.wav in Resources */,
+				8109C97B2A7C6C970096DD64 /* Handlee-Regular.ttf in Resources */,
 				81924DAD2A26397400BDA309 /* B.wav in Resources */,
 				81924DB02A26397400BDA309 /* E.wav in Resources */,
 				81924DAE2A26397400BDA309 /* C.wav in Resources */,
@@ -200,8 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				81924DB42A26454500BDA309 /* AudioManager.swift in Sources */,
+				8109C9752A7C4BA10096DD64 /* SplashView.swift in Sources */,
+				8109C9772A7C67040096DD64 /* KeyView.swift in Sources */,
 				81924D992A26390100BDA309 /* ContentView.swift in Sources */,
 				81924D972A26390100BDA309 /* XylophoneApp.swift in Sources */,
+				8109C9792A7C67850096DD64 /* ColorLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +351,7 @@
 				DEVELOPMENT_TEAM = HJ5KH98N5D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xylophone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -362,6 +381,7 @@
 				DEVELOPMENT_TEAM = HJ5KH98N5D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xylophone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
